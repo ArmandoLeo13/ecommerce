@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <header>
         <Navbar />
       </header>
+      <ItemListContainer greetings="Bienvenidos a AM Liquor Store!"/>
     </div>
   );
 }
