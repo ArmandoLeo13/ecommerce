@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Categorias from './components/Categorias/Categorias';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
       </header>
       <ItemListContainer greetings="Bienvenidos a AM Liquor Store!"/>
+      
     </div>
   );
 }
