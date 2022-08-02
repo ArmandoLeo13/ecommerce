@@ -3,7 +3,7 @@ import './Item.css';
 
 const Item = ({product}) => {
     return(
-        <div className="card" key={product.id}>
+        <div className="card">
             <div className="imgCard">
                 <img src={product.img} />
             </div>
